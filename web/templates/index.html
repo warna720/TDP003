@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Index Page
+{% endblock %}
+
+{% block content %}
+    <h1>Eat - Sleep - Code</h1>
+    Detta är en portfoliosida för våra projekt<br><br><br>
+    <h1>Utvalt projekt</h1>
+    <a href="/project/{{ project["project_no"] }}">
+        <div class="project">
+            <img src="{{ project["small_image"] }}">
+            {{ project["project_no"] }}: {{ project["project_name"] }}, {{ project["external_link"] }}<br>
+            {{ project["short_description"] }}<br>
+
+            Tekniker: {% for tech in project["techniques_used"] %}
+                {{ tech }}
+            {% endfor %}<br>
+
+            Startdatum: {{ project["start_date"] }}<br>
+            Slutdatum: {{ project["end_date"] }}<br>
+            {{ project["course_id"] }}, {{ project["course_name"] }}<br>
+            {{ project["group_size"] }} Personer
+        </div>
+    </a>
+{% endblock %}

@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Techniques Page
+{% endblock %}
+
+{% block content %}
+    <h1>Tekniker vi har använt</h1>
+    {% for key in keys %}
+        <h2>{{ key.capitalize() }}</h2>
+
+            <ul>
+                {% for technique in techs[key] %}
+                    <a href="/project/{{ technique["id"] }}"><li>{{ technique["name"].capitalize() }}</li></a>
+                {% endfor %}
+            </ul>
+        
+    {% endfor %}
+{% endblock %}

@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    List Page
+{% endblock %}
+
+{% block content %}
+
+    <h1>List</h1>
+    {% for project in projectlist %}
+        <a href="/project/{{ project["project_no"] }}">
+            <div class="project">
+                <img src="{{ project["small_image"] }}">
+                {{ project["project_no"] }}: {{ project["project_name"] }}, {{ project["external_link"] }}<br>
+                {{ project["short_description"] }}<br>
+
+                Tekniker:
+                {% for tech in project["techniques_used"] %}
+                    {{ tech }}
+                {% endfor %}<br>
+
+                Startdatum: {{ project["start_date"] }}<br>
+                Slutdatum: {{ project["end_date"] }}<br>
+                {{ project["course_id"] }}, {{ project["course_name"] }}<br>
+                {{ project["group_size"] }} Personer
+            </div>
+        </a>
+    {% endfor %}
+
+    {% if listlength == 0 %}
+    Hittade inga projekt.
+    {% endif %}
+
+{% endblock %}

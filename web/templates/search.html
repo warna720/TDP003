@@ -1,0 +1,77 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Search Page
+{% endblock %}
+
+{% block content %}
+    <h1>Avancerad sökning</h1>
+    <form action="search" method="POST">
+
+        Sökord
+        <input name="searchstr"></input>
+
+        <h2>Sök i följande fält:</h2>
+        <input type="checkbox" name="searchfields" value="project_no">Projekt ID</input>
+        <input type="checkbox" name="searchfields" value="project_name">Projektnamn</input>
+        <input type="checkbox" name="searchfields" value="start_date">Startdatum</input>
+        <input type="checkbox" name="searchfields" value="end_date">Slutdatum</input>
+        <input type="checkbox" name="searchfields" value="course_id">Kurs ID</input>
+        <input type="checkbox" name="searchfields" value="course_name">Kursnamn</input>
+        <input type="checkbox" name="searchfields" value="techniques_used">Använda tekniker</input>
+        <input type="checkbox" name="searchfields" value="description">Kort beskrivning</input>
+        <input type="checkbox" name="searchfields" value="long_description">Lång beskrivning</input>
+        <input type="checkbox" name="searchfields" value="group_size">Gruppstorlek</input>
+
+        <h2>Välj teknik(er):</h2>
+        {% for technique in keys %}
+            <input type="checkbox" name="techniques" value="{{ technique }}">{{ technique }}</input>
+        {% endfor %}
+
+        <h2>Sortera efter:</h2>
+        <input type="radio" name="sortby" value="project_no">Projekt ID</input>
+        <input type="radio" name="sortby" value="project_name">Projektnamn</input>
+        <input type="radio" name="sortby" value="start_date" checked="checked">Startdatum</input>
+        <input type="radio" name="sortby" value="end_date">Slutdatum</input>
+        <input type="radio" name="sortby" value="course_id">Kurs ID</input>
+        <input type="radio" name="sortby" value="course_name">Kursnamn</input>
+        <input type="radio" name="sortby" value="techniques_used">Använda tekniker</input>
+        <input type="radio" name="sortby" value="description">Kort beskrivning</input>
+        <input type="radio" name="sortby" value="long_description">Lång beskrivning</input>
+        <input type="radio" name="sortby" value="group_size">Gruppstorlek</input>
+
+        <h2>Sortera:</h2>
+        <input type="radio" name="sortorder" value="asc" checked="checked">Stigande</input>
+        <input type="radio" name="sortorder" value="desc">Fallande</input>
+
+        <input type="submit" value="Search"></input>
+    </form>
+
+    {% if matches %}
+        <hr>
+    {% elif matches == 0 %}
+        <hr>
+        Hittade inga projekt.
+    {% endif %}
+
+    {% for project in projectlist %}
+    <a href="/project/{{ project["project_no"] }}">
+        <div class="project">
+            <img src="{{ project["small_image"] }}">
+            {{ project["project_no"] }}: {{ project["project_name"] }}, {{ project["external_link"] }}<br>
+            {{ project["short_description"] }}<br>
+
+            Tekniker:
+            {% for tech in project["techniques_used"] %}
+                {{ tech }}
+            {% endfor %}<br>
+
+            Startdatum: {{ project["start_date"] }}<br>
+            Slutdatum: {{ project["end_date"] }}<br>
+            {{ project["course_id"] }}, {{ project["course_name"] }}<br>
+            {{ project["group_size"] }} Personer
+        </div>
+    </a>
+    {% endfor %}
+
+{% endblock %}

@@ -13,7 +13,7 @@ Installation instructions
 -------------------------
 
 ### Linux
-**1:** `sudo apt-get update && sudo apt-get install –y python3 python3-pip python-virtualenv git´
+**1:** ```sudo apt-get update && sudo apt-get install –y python3 python3-pip python-virtualenv git```
 
 **2:** Download latest version of system `svn checkout https://svn-und.ida.liu.se/courses/TDP003/2014-1-PRA1/ip1-2-5/TDP003/portfolio --username <username> ~/portfolio´
 Replace "<username>" with your username.

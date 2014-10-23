@@ -9,7 +9,7 @@
     <form action="search" method="POST">
 
         Sökord
-        <input name="searchstr"></input>
+        <input name="searchstr">
 
         <h2>Sök i följande fält:</h2>
         <input type="checkbox" name="searchfields" value="project_no">Projekt ID</input>
@@ -19,13 +19,14 @@
         <input type="checkbox" name="searchfields" value="course_id">Kurs ID</input>
         <input type="checkbox" name="searchfields" value="course_name">Kursnamn</input>
         <input type="checkbox" name="searchfields" value="techniques_used">Använda tekniker</input>
-        <input type="checkbox" name="searchfields" value="description">Kort beskrivning</input>
+        <input type="checkbox" name="searchfields" value="short_description">Kort beskrivning</input>
         <input type="checkbox" name="searchfields" value="long_description">Lång beskrivning</input>
         <input type="checkbox" name="searchfields" value="group_size">Gruppstorlek</input>
+	<input type="checkbox" name="searchfields" value="academic_credits">Kurspoäng</input>
 
         <h2>Välj teknik(er):</h2>
         {% for technique in keys %}
-            <input type="checkbox" name="techniques" value="{{ technique }}">{{ technique }}</input>
+            <input type="checkbox" name="techniques" value="{{ technique }}">{{ technique.capitalize() }}</input>
         {% endfor %}
 
         <h2>Sortera efter:</h2>
@@ -44,7 +45,7 @@
         <input type="radio" name="sortorder" value="asc" checked="checked">Stigande</input>
         <input type="radio" name="sortorder" value="desc">Fallande</input>
 
-        <input type="submit" value="Search"></input>
+        <input type="submit" value="Search">
     </form>
 
     {% if matches %}
@@ -55,20 +56,20 @@
     {% endif %}
 
     {% for project in projectlist %}
-    <a href="/project/{{ project["project_no"] }}">
+    <a href="/project/{{ project['project_no'] }}">
         <div class="project">
-            <img src="{{ project["small_image"] }}">
-            {{ project["project_no"] }}: {{ project["project_name"] }}, {{ project["external_link"] }}<br>
-            {{ project["short_description"] }}<br>
+            <img src="{{ project['small_image'] }}" alt="Bilden hittades inte">
+            <b>{{ project["project_no"] }}: {{ project["project_name"] }}</b>, {{ project["external_link"] }}<br>
+            {{ project["short_description"] }}<br><br>
 
             Tekniker:
             {% for tech in project["techniques_used"] %}
-                {{ tech }}
+                {{ tech }}{% if tech != project["techniques_used"][-1] %}, {% endif %}
             {% endfor %}<br>
 
             Startdatum: {{ project["start_date"] }}<br>
             Slutdatum: {{ project["end_date"] }}<br>
-            {{ project["course_id"] }}, {{ project["course_name"] }}<br>
+            Kurs: {{ project["course_id"] }}, {{ project["course_name"] }}<br>
             {{ project["group_size"] }} Personer
         </div>
     </a>

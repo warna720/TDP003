@@ -5,20 +5,24 @@
 {% endblock %}
 
 {% block content %}
-    <h1>{{ project["project_name"] }}</h1>
-    <img src="../{{ project["big_image"] }}"><br>
-    <p>
-      {{ project["project_no"] }}: {{ project["project_name"] }}, {{ project["external_link"] }}<br>
-      {{ project["short_description"] }}<br>
-      Tekniker: {% for tech in project["techniques_used"] %}
-      {{ tech }}
-      {% endfor %}<br>
-      Startdatum: {{ project["start_date"] }}<br>
-      Slutdatum: {{ project["end_date"] }}<br>
-      {{ project["course_id"] }}, {{ project["course_name"] }}<br>
-      {{ project["group_size"] }} personer
-    </p>
-    <p>
-      {{ project["long_description"] }}
-    </p>
+        <h1>{{ project["project_name"] }}</h1>
+        <img class="project_big_image" src="{{ project['big_image'] }}" alt="Bilden hittades inte">
+        <div class="project">
+            <div class="long_description">
+                {{ project["long_description"] }}<br>
+            </div>
+            <div>
+                <a href="{{ project["external_link"] }}">Projektdemo</a><br>
+
+                Tekniker:
+                {% for tech in project["techniques_used"] %}
+                    {{ tech }}{% if tech != project["techniques_used"][-1] %}, {% endif %}
+                {% endfor %}<br>
+
+                Startdatum: {{ project["start_date"] }}<br>
+                Slutdatum: {{ project["end_date"] }}<br>
+                Kurs: {{ project["course_id"] }}, {{ project["course_name"] }}<br>
+                {{ project["group_size"] }} Personer
+            </div>
+        </div>
 {% endblock %}

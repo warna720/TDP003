@@ -1,81 +1,282 @@
 [
-  {
-    "start_date": "2009-09-05",
-    "short_description": "no",
-    "course_name": "OK\u00c4NT",
-    "long_description": "no no no",
-    "group_size": 2,
-    "academic_credits": "WUT?",
-    "lulz_had": "many",
-    "external_link": "YY",
-    "small_image": "static/images/imgs1.jpeg",
-    "techniques_used": [
-      "python"
-    ],
-    "project_name": "python data-module test script",
-    "course_id": "TDP003",
-    "end_date": "2009-09-06",
-    "project_no": 1,
-    "big_image": "static/images/imgl1.jpeg"
-  },
-  {
-    "start_date": "2009-09-07",
-    "short_description": "no",
-    "course_name": "OK\u00c4NT",
-    "long_description": "no no no",
-    "group_size": 4,
-    "academic_credits": "WUT?",
-    "lulz_had": "few",
-    "external_link": "YY",
-    "small_image": "static/images/imgs2.jpeg",
-    "techniques_used": [
-      "c++",
-      "csv",
-      "python"
-    ],
-    "project_name": "NEJ",
-    "course_id": "TDP003",
-    "end_date": "2009-09-08",
-    "project_no": 3,
-    "big_image": "static/images/imgl2.jpeg"
-  },
-  {
-    "start_date": "2009-09-08",
-    "short_description": "no",
-    "course_name": "OK\u00c4NT",
-    "long_description": "no no no",
-    "group_size": 6,
-    "academic_credits": "WUT?",
-    "lulz_had": "medium",
-    "external_link": "YY",
-    "small_image": "X",
-    "techniques_used": [
-      "ada",
-      "python"
-    ],
-    "project_name": "2007",
-    "course_id": "TDP003",
-    "end_date": "2009-09-09",
-    "project_no": 2,
-    "big_image": "XXX"
-  },
-  {
-    "start_date": "2009-09-06",
-    "short_description": "no",
-    "course_name": "HOHO",
-    "long_description": "no no no",
-    "group_size": 8,
-    "academic_credits": "WUT?",
-    "lulz_had": "over 9000",
-    "external_link": "YY",
-    "small_image": "X",
-    "techniques_used": [
+    {
+	"project_name": "Deep Thought",
+	"project_no": 42,  
+	"start_date": "1978-09-05",
+	"end_date": "2005-11-10",
+	"course_id": "DT42",
+	"course_name": "Calculating The Answer",
+	"short_description": "Projektet omfattar ett försök om 48,816 timmars arbete i att konstruera en maskin som kan ge det slutgiltiga svaret på den yttersta frågan om livet, universum och allting. Tyvärr slutade projektet inte som tänkt då programmet alltid returnerade 42.  ",
+	"long_description": "I ett försök att hitta svaret på den yttersta frågan, om livet, universum och allting, valde vi, en grupp om 10 personer, att konstruera ett program. Ett program avancerat nog att kalkylera och evaluera de miljontals variabler som detta innefattar, samt returnera svaret på ett enkelt och mänskligt förståeligt format.\\n\\nUnder de första 3 åren arbetade vi 10 fulltid med att konstruera flödesscheman, tänka ut variabler samt vilka möjliga funktioner detta projekt skulle innefatta.\\nMånga azgoter, fallande petunior och valar senare  kom vi fram till ett fungerande koncept som revolverar runt tanken att man itererar genom meningar i ett intervall av känslor. For meaning in da_feels.\\nMed tanke på allt som programmet skulle gå igenom tog den första körningen 10 år, men returnerade bara svaret 42. \\nDe 10 senaste åren har lagts på felsökning och effektiviserande av programmet, men det returnerar fortfarande enbart 42.\\nEfter att allas hjärnor blivit till äggröra skulle vi vilja avsluta med några väl valda ord, innan vi lägger ner projektet, citerade av Prostetnic Vogon Jeltz.\\n\\n'Oooo fläskige fontanell, din smet bestryker mig.\\nMed slibbfalusker ur en guttubral skrafån.\\nVid mina förfäders polyper vill jag skåda, hur mjälla kakakläckans ögon smäktar i sin låda,\\noch eljest dränk min grämjelses garott lim av torsk som aldrig förr!' ",
+	"small_image": "alest170_sign.jpg",
+	"big_image": "alest170_cube.jpg",
+	"group_size": 10,
+	"academic_credits": "9000",
+	"techniques_used": [
+	    "python",
+	    "ada",
+	    "c++",
+	    "java"
+	],
+	"external_link": "http://www.liu.se/?l=sv"
+    },
+    {
+	"start_date": "2010-11-01",
+	"short_description": "A 2D arcade game where you survive endless waves of attacking shapes.",
+	"course_name": "Project: Object-oriented Systems",
+	"long_description": "ShapeSurvival is a 2D arcade-style shooter game.\n\nThe game is played from a top-down perspective, you play as a triangle trying to survive endless waves of attacking enemies:\n- Circle, a fast enemy that pursues you.\n- Square, a slow enemy that pursues you and fires at you.\n\nPowerups that help you randomly appear whilst playing:\n- Speed Up, makes you go faster\n- Firerate Up, makes you shoot faster\n- Health-Pack, gives you some health\n\nThe game has a score-system that's based on how many enemies you've defeated and how many pickups you've taken.\n\nThis project was made alongside another course about learning C++ and object-oriented programming.",
+	"group_size": 2,
+	"academic_credits": "6 hp",
+	"external_link": "www-und.ida.liu.se/~daner045/ShapeSurvival",
+	"small_image": "daner045_johlj260_shapesurvival_small.png",
+	"techniques_used": [
+	    "C++",
+	    "SDL",
+	    "Subversion"
+	],
+	"project_name": "ShapeSurvival",
+	"course_id": "TDP005",
+	"end_date": "2010-12-17",
+	"project_no": 414,
+	"big_image": "daner045_johlj260_shapesurvival_big.png"
+    },
+    {
+	"start_date": "2014-08-18",
+	"short_description": "Solen går upp och ned, även i internet ELLER sol ute, sol inne, sol på internet och solig finne?",
+	"course_name": "Sunset 2014",
+	"long_description": "Vårt projekt handlar om en natt utan sol i internet. Vår upgift var att skaffa sol på internetets dystra omgivning med programmeringens ädla konster som vårt enda verktyg. Vi bokade vår resa till the wide web of the world och började undersöka VARFÖR det inte finns sol i internet. Vi fattade ingenting.\n\n Vi vände oss till någon som hade mer kunskap i detta: Självaste Klas Arvidsson, Universitetsadjunkt och examinator i kursen SS2014.\n\n Klas gav oss  två ledstjärnor för att hjälpa oss nå vårt lukrativa mål, få sol i internet: CODE_COMPLETE_v2.chapter(range(0,36)), CONCEPTS_OF_PROGRAMMING_LANGUAGES_v10.chapter(range(0,17)) och givetvis den heliga LEARNING_PYTHON_v5.page(range(0,1697)).\n\n Med vår uppgift klar bakom oss hade vi sol på skrivbordet, i internet och under träden. En PYTHON  användes för att räkna vektorer under internets himlar och HTML värmde oss organiserandes utan natt. Vackert blev det av CSS i änden. En RUBY blänkte klart i kanten",
+	"group_size": 2,
+	"academic_credits": "WUT?",
+	"lulz_had": "had a few lulz tbh",
+	"external_link": "no link",
+	"small_image": "tomli962-small_image_ss2014.png",
+	"techniques_used": [
+	    "python",
+	    "css",
+	    "html"
+	],
+	"project_name": "project sunset",
+	"course_id": "SS2014",
+	"end_date": "2014-09-26",
+	"project_no": 723728,
+	"big_image": "tomli962-big_image_ss2014.png"
+    },
+    {
+        "course_id": "ProX",
+        "academic_credits": "99999",
+        "end_date": "2011-04-27",
+        "project_no": 1337,
+        "course_name": "Koenigsegg CCX",
+        "project_name": "Koenigsegg CCX",
+        "small_image": "ccx.jpg",
+        "start_date": "2001-01-01",
+        "external_link": "http://www.koenigsegg.com/models/ccx/",
+        "group_size": 50,
+        "long_description": "<b>The spirit of performance</b><br>The CCX is the third generation from Koenigsegg to comply with global safety and environmental regulations, making it eligible for sale anywhere in the world. The performance of the car is staggering, as shown on the famous BBC program, Top Gear, where the CCX took the lap record ahead of the traditional, more famous supercar competition. The record-breaking CCX was developed to deliver superior performance \u2013 both on the track and on the road. We also wanted to show a clear design heritage from its predecessor and avoid following design trends. With the CCX, we maintained the distinctive CC shape and enhanced its unique appearance with tighter lines and a more aggressive stance.<br><br><b>Flow motion</b><br>The award-winning aerodynamics of the CCX transmit the strength and fluidity of its design. It has been built to maximize both top speed and efficiency. Every aspect of this machine serves a fundamental purpose. There are no gadgets or unnecessary features on the car - only elements that actively contribute to efficiency and purity.<br><br><b>Leaving others behind</b><br>The 806 Bhp engine, developed and assembled by Koenigsegg, delivers unmatched power in terms of its size and weight. At the same time, it complies with the toughest emission regulations worldwide. The engine has been built to last and to be driven to the limit.<br><br><b>Equipment</b><br>Dual Airbags, detachable storable hardtop with glass roof, power windows, rear wing, adjustable pedals and steering column, adjustable seats in rake and length, carbon ceramic brakes with ABS, hydraulic lifting system, power steering, power brakes, satnav, MP3 Player, USB connection, climate control, digital warning and info system, G sensor, alarm, tyre monitoring system, silver key, leather carpets, roof stowage, bag, car cover.",
+        "big_image": "ccx.jpg",
+        "techniques_used": [
+	    "Welding",
+	    "Sheet punching",
+	    "Assembly"
+        ],
+        "short_description": "The CCX is the third generation sports car from Koenigsegg, with improved design and quality."
+    },
+    {
+	"start_date": "2012-06-20",
+	"short_description": "Fulvinsbryggning är en tradition vid Linköping Universitet. Men hur brygger man eget vin med enkla medel som finns i varje hem? Det tar vi reda på.",
+	"course_name": "Förberedande kurs inför universitetsstudier",
+	"long_description":"Vi började med att ta reda på vilket sätt som det bör bli godast vin utav. Efter 3 veckor av dagligt fulvinsprovning hade vi kommit fram till det absolut bästa altenativet. Vi valde att brygga med en kombination av saft och annat smått och gått som torkat frukt och bär.\\n Efter långa nätter på biblioteket och intranätet har vi hittat det absolut mest magnifika receptet på fulvin. Att brygga detta fulvin är så precist att vi fick flytta in i ett munktempel i 2 år och uppnå nirvana. \\n Därefter var vi tvugna att utmana och vinna över den högsta munken i fulvinshäfvning. Inte fören då hade vi tillräckliga förkunskapskrav för att få brygga ett så fint fulvin. Vi åkte till Narnia för att börja plocka bären och frukterna till vårt regnbågsvin. Med en gudomlig blandning av bär och frukt i universums alla färger begav vi oss till Fylke för att brygga vinet. För att brygga vinet gjorde vi på följande sätt:Vi blandade ihop saft, vatten och socker i ett jäskärl, sedan lade vi till vinjästen. Detta jästa sedan i 1-2 dygn innan vi började göra i ordning nästa del. \\n Vi sköljde bären och frukten om det nu skulle finnas några orenheter på den. Sedan hällde vi kokande vatten över frukten. När det svalnat hade vi i enzymer, socker och vinsvavla. När det svalnat ännu mer tillsatte vi den jäsande saften. Detta ska sedan stå i 10-13 dagar för jäsning. \\n Sedan dricker man allt helt utan att sila eller ta bort frukten och bären. Det blir något helt annat än vad man är van med, men med all förberedning blir det väldigt mycket bättre än vanligt fulvin.",
+	"group_size": 2,
+	"academic_credits": "PhD",
+	"lulz_had": "5",
+	"external_link": "http://vinboken-online.com/hur-och-vad-man-gor/",
+	"small_image": "mkyivl.jpg",
+	"techniques_used": [
+	    "jäsning",
+	    "tappning",
+	    "häfvning",
+	    "fantasi"
+	],
+	"project_name": "Fulvinsbrygge",
+	"course_id": "FKIU001",
+	"end_date": "2014-12-10",
+	"project_no": 946,
+	"big_image": "fulvin.jpg"
+    },
+    {
+	"start_date": "2013-03-07",
+	"short_description": "A system handling statistics for fish",
+	"course_name": "improbable programming",
+	"long_description": "we believe in a world where all animals are equal under the law, where cuddlefish are plenty and beer flows in segregated rivers. Therefore, for this project, we took some programming techniques and the noobiest programmers we could find. Fortunately, that created an awesome end result, which is this complete project. It mostly lays there, though. So how we did it, was that we created three teams and divided the work; these teams handled the past, the present, and the future. The past was then organized into smaller parts: the unessessary and the essessary. The present was a gift, so it was almost complete already. The future is not, so it had to be done. det här är inte programmering och kännns heeeeeeelt onödigt, samt att vi inte lär oss något. är det meningen att vi ska lära oss göra beskrivningar?? information ej funnen. här kommer en lista av sökord, om du vill: Abstract class Accessibility Abstract method Abstraction (computer science) Access control Access modifiers Accessor method Adapter pattern Allocated class Aspect-oriented. facebook. twitter. iterable, built in function, import, apply, help, win32 systemfile, trovärdig text, package, memory allocation, interface subclasses methods.",
+	"group_size": 4,
+	"academic_credits": "42hp",
+	"external_link": "https://www.ida.liu.se/~TDP003/current/planering/exempelprojekt.sv.shtml",
+	"small_image": "fredu953-60x60_OilPaintingBlueReal_2f2d5a7359fc43bda61aa774c23584dd.jpg",
+	"techniques_used": [
+	    "c++",
+	    "assembly",
+	    "pascal"
+	],
+	"project_name": "python data-module test script",
+	"course_id": "F1$HY",
+	"end_date": "2013-03-08",
+	"project_no": 88,
+	"big_image": "fredu953-500x400_OilPaintingGreen_e307b81271da441fb10dd23ae660ec65.jpg"
+    },
+    {
+	"start_date": "14-09-29",
+	"short_description": "Mega AI is like an army of cerial killers - eating every last bit of your brains göze :@",
+	"course_name": "TDP003",
+	"long_description": "Gegga of your Mega will force the AI to release it's components. These components are a bit of laggy if you troll a wizard to cöt a waier in walls. With swords and hounds like horse and hounds, it bounce and bounce, to launch en lunch. Break a bone and hear the cone, brings and bite, in every cCoca Cola lite. Ever and ever a mammut will rammut, by cold and warm, ling sting the swarm. Bright and clear, the create of the bear, will whole the well by Roberts Wells. Sight and sing of bring the bing. Like it, hate it, love it, mix it, all is dwelled and loved in peaces, with peaches. For life of the living a far will fahrenheit. Blitz stritz critz slitz bolalongaritz. Jäj, vörä rölågt ricköring dütrît.<br><br>Gegga of your Mega will force the AI to release it's components. These components are a bit of laggy if you troll a wizard to cöt a waier in walls. With swords and hounds like horse and hounds, it bounce and bounce, to launch en lunch. Break a bone and hear the cone, brings and bite, in every cCoca Cola lite. Ever and ever a mammut will rammut, by cold and warm, ling sting the swarm. Bright and clear, the create of the bear, will whole the well by Roberts Wells. Sight and sing of bring the bing. Like it, hate it, love it, mix it, all is dwelled and loved in peaces, with peaches. For life of the living a far will fahrenheit. Blitz stritz critz slitz bolalongaritz. Jäj, vörä rölågt ricköring dütrît.<br><br>Gegga of your Mega will force the AI to release it's components. These components are a bit of laggy if you troll a wizard to cöt a waier in walls. With swords and hounds like horse and hounds, it bounce and bounce, to launch en lunch. Break a bone and hear the cone, brings and bite, in every cCoca Cola lite. Ever and ever a mammut will rammut, by cold and warm, ling sting the swarm. Bright and clear, the create of the bear, will whole the well by Roberts Wells. Sight and sing of bring the bing. Like it, hate it, love it, mix it, all is dwelled and loved in peaces, with peaches. For life of the living a far will fahrenheit. Blitz stritz critz slitz bolalongaritz. Jäj, vörä rölågt ricköring dütrît.",
+	"group_size": 2,
+	"academic_credits": "150,0",
+	"external_link": "http://wikipedia.org",
+	"small_image": "gusri625_aleel401_ai_small.png",
+	"techniques_used": [
+	    "Python",
+	    "c++",
+	    "HTML",
+	    "CSS",
+	    "JS"
+	],
+	"project_name": "Mega AI",
+	"course_id": "TDP003",
+	"end_date": "2016-09-06",
+	"project_no": 1,
+	"big_image": "gusri625_aleel401_ai_big.png"
+    },
+    {
+        "start_date": "2014-03-01",
+        "short_description": "Projekt i datorkonstruktion. Tillämpning av valfri datormodell samt ett program som kan köras i denna på ett FPGA-kort.",
+        "course_name": "TSEA83",
+        "long_description": "Idén bakom projekt var att få in ett doom-liknande spel att köras på begränsad hårdvara. Datormodellen som användes var baserad på Björn Lindskogs modell och byggdes sedan ut för att ge stöd för 16 stycken register, heltal på 32 bitar samt adresser på 16 bitar.\nFör att snabba upp arbetsprocessen, skrevs även en kompilator i C++ som tog vår egenutvecklade assembler-kod och sammanställde den till hexadecimal kod som sedan kunde bakas in direkt i hårdvaran. Några av de extra funktionerna som kompilatorn har stöd för att:\n*Automatiskt kunna detektera vilken datatyp som variabler har (ex. fixed-point, integer, address ).\n*Namnge register för att förbättra kodens läsbarhet. \n*Visa rad och position för kompileringsfel.\n*Visa debug-meddelanden som ger information om resultatet från den färdigkompilerade koden.\n*Hitta och packa ihop labels som används för hopp-instruktioner.\nKompilatorn var dock inte buggfri. Den mest märkvärda av dessa buggar var antagligen ’neo-buggen’. Om man valde att använda sig av talet ’1’ någonstans i koden, kunde ett fel uppstå som fick hela programmet att sluta fungera.\n\nProgrammet som skrevs till datorn använder sig av ett tvådimensionellt fält fyllt av block som bildar korridorer. Genom att göra en sökning i fältet för varje kolumn i bilden som ska visa, kan vi rita ut en höjd på skärmen vars värde beräknades med hjälp av distansen till den punkt som hittades i sökningen.\nOm du inte orkar fortsätta läsa denna text så var vänlig och njut av följande skönlitterära mästerverk:\nDet var två gafflar som var ute och flög och så störtade en.\n- Varför?\n- För att inte gafflar inte kan flyga!\nDet var två kor som var ute och flög och så störtade en.\n- Varför?\n- För att den fick en gaffel i ögat!\n\nTillbaka till projektet nu.\nFör att lagra all data till projektet skrevs en speciell minnesmodul. 16 bitar ger 65536 indexerbara adresser men eftersom inte alla dessa skulle användas gjordes modulen om så att de första 4 bitarna kan användas för att välja en av upp till 16 stycken minnestabeller. Dessa tabeller kan sedan innehålla upp till 4096 adresser.\nJag orkar typ inte skriva något mer nu, det är säkert ingen som orkar läsa hit ändå.",
+        "group_size": 3,
+        "academic_credits": "6hp",
+        "external_link": "http://www.isy.liu.se/edu/kurs/TSEA83/projekt/",
+        "small_image": "datorkonstruktion_big.jpg",
+        "techniques_used": [ "C++", "VHDL", "Java", "Assembler", "Mikrokod", "Kaffe" ],
+        "project_name": "Datorkonstruktion",
+        "course_id": "TDP003",
+        "end_date": "2014-05-16",
+        "project_no": 404,
+        "big_image": "datorkonstruktion_big.jpg"
+    },
+    {
+	"start_date": "2014-10-02",
+	"short_description": "Att skriva hårdvara i C--.",
+	"approach": "Skriv pseudokod och flödeschema inför projektet, sök efter felkällor.Påbörja sedan projektet",
+	"group_size": 1337,
+	"equipment": "Penna, papper samt en lämplig mängd kaffe",
+	"long_description": "Innan man påbörjar ett project är det viktigt att ha en bra plan för hur man ska lösa kommande svårigheter.\\nProjektet inleddes därför med att skriva pseudukod. I och med detta blir det lättare att förutspå kommande problem och svårigheter.\\nSedan skapas ett flödesschema för att se hur allt kommer att fungera.\\nSom test skrivs allt i python3. Eftersom detta är ett språk vi har erhållit mest kunskap om.\\nEn felkälla kan vara att UTF-8 inte används. Detta behöver testas innan allting blir klart.\\nEfter att allt förarbete är klart börjar det skrivas. För att få bättre plats för hårdvara skrivs C först och sedan hårdvara inuti C--.",
+	"small_image": "hargr213rasjo332min.png",
+	"techniques_used": [
+	    "python"
+	],
+	"project_name": "Learning advanced writing in C--",
+	"end_date": "2035-11-03",
+	"project_no": 69,
+	"big_image":"hargr213rasjo332bild.png"
 
-    ],
-    "project_name": ",",
-    "course_id": " \"",
-    "end_date": "2009-09-07",
-    "project_no": 4,
-    "big_image": "XXX"
-  }
+    },
+    {
+        "course_id": "TDP003",
+        "big_image": "joagy323_for.gif",
+        "big_alt": "Detta är ett for",
+        "academic_credits": "you say what now!?",
+        "short_description": "Innehåller: For konstverk",
+        "lulz_had": "för få",
+        "end_date": "2014-10-01",
+        "techniques_used": [
+	    "Photoshop", "Python"
+        ],
+        "start_date": "2014-10-01",
+        "group_size": 1,
+        "external_link": "../static/images/joagy323_for_loop.py",
+        "long_description": "Ett python3 projekt där en trevlig får loop har skapats och beundrats av flertalet personer. Under många långa minuter jobbade en man stenhårt på den oändligt vackra loopen med motivationen att den färdiga produkten skulle sprida glädje och harmony till allt och alla .. Det gick sisådär.",
+        "course_name": "Basic for-loop programming",
+        "project_name": "For loop",
+        "small_image": "joagy323_for.gif",
+        "small_alt": "Detta är ett for",
+        "project_no": 11
+    },
+    {
+	"start_date": "2015-08-20",
+	"short_description": "Hittar cykelpumpar nära dig.",
+	"course_name": "Projekt: Hemsida",
+	"long_description": "Projektet är till för cykelfolk att enkelt och lätt kunna hitta cykelpumpar som finns i närheten av dem när nöden kommer. Detta görs med hjälp av GPS på användarens mobil. All data om cykelpumparna är insamlade av oss i hela Sverige. Datan samlades in under sommaren under vår cykelfärd genom Sverige. Cykelpumparna visas enkelt genom Google Maps. Användaren kan även ge ut en nödsignal till andra användare om appen pumpITup att denna har fått punktering och cyklister med cykelpump i bakfickan kan därmed komma till undsättning. Denna app kommer vara essentiellt för cyklisterna att effektivare kunna arbeta ihop med miljöpartiet om en grönare och fruktigare värld.",
+	"group_size": 2,
+	"academic_credits": "7.5 HP",
+	"lulz_had": "many very",
+	"external_link": "http://github.com/projectpump/pumpit",
+	"small_image": "http://moderaterna.net/danderyd/files/2014/03/cykelpump.jpg ",
+	"techniques_used": [
+	    "java",
+	    "obj-c"
+	],
+	"project_name": "Pump it up!",
+	"course_id": "TDP101",
+	"end_date": "2015-10-26",
+	"project_no": 13,
+	"big_image": "http://upload.wikimedia.org/wikipedia/commons/2/2c/Cykelpump-Stockholm.jpg"
+    },
+    {
+	"project_name": "Python Calculator",
+	"project_no": 111,
+	"start_date": "2011-10-11",
+	"end_date": "2012-10-11",
+	"course_id": "TDP002",
+	"course_name": "Imperativ Programmering",
+	"academic_credits": 6,
+	"techniques_used": [
+	    "python"
+	],
+	"short_description": "My first Python project.<br>A simple calculator.",
+	"long_description": "<p>This was my first Python project. It's a simple calculator that reads in plus ('+'), minus ('-'), multiplied ('*'), divided ('/') and two numbers. It then calculates the two numbers depending on the value of the symbol the user entered.</p><p>It took me a full year to complete the project due to an overload of work. Work was all like: 'Ooooh, come here! Let's do some more menial tasks', and I was like 'No, work! I don't want to! I want to program my calculator!'. But, alas, work goes first due to me needing a salary to eat and pay rent and such.</p><p>Oh no. I'm starting to use this as some sort of blog, aren't I? That's not good... I mean I need to show this site to possible people who would like to hire me! MOOOOOOOM! How do I delete stuff off of my website, again?</p><p>...</p><p>She's not answering... Why am I still typing?!</p><p><em>Note</em></p><p>Due to the amazing Flask-portfolio both scientists and doctors were easily able to find the master of calulators. With the newly-found power of the calculator doctors could finally find a cure for several deadly diseases, while scientists managed to calculate solutions for the world's largest energy problems.</p><p>The founder of the calculator was crowned both king and queen of Python and earned enough money to move out of the mother's basement. The founder - or master - now lives high up in the mountains where small groups of trainees are sent to learn the art of Python...</p>",
+	"small_image": "maxbr431_calc_terminal.png",
+	"big_image": "maxbr431_calc_code.png",
+	"group_size": 1,
+	"external_link": "/project/1"
+    },
+    {
+	"start_date": "2014-07-02",
+	"short_description": "Program som beräknar kötid i baljan",
+	"course_name": "Användbara Kö Algoritmer",
+	"long_description": "Har du någonsin insett att du inte hinner köpa kaffe i baljan innan nästa föreläsning börjar? Har du ställt dig i kö för biljetsläpp för sent och missat sista biljetterna? Detta projekt använder sig av en algoritm vi skapad specifikt för att beräkna hur lång tid du egentligen behöver köa i korallen! Den tar även hänsyn till vilken dag det är, hur duktig du är på att trängas samt tidpunkt och tillfälligt intresse för köandet. Nytt inkluderat i den sista versionen av projektet är promille faktorn. Studier har visat att promille innan kön- för kön slutar är en avgörande faktor i hur många som blir utslängda och därmed ger plats för andra. Viktigt!",
+	"group_size": 3,
+	"academic_credits": "10",
+	"lulz_had": "over 9000",
+	"external_link": "www.wikipedia.se/kö",
+	"small_image": "http://tinyurl.com/m7jfac5",
+	"techniques_used": [
+	    "c++",
+	    "csv",
+	    "python"
+	],
+	"project_name": "Korallens Kö-beräknings algoritm",
+	"course_id": "TDP008",
+	"end_date": "2014-11-09",
+	"project_no": 2,
+	"big_image": "http://blog.liu.se/emeliewahlstrom/files/2014/02/hockey.jpg"
+    },
+    {
+        "course_id": "TDP003",
+        "big_image": "robca064_big_img_julkort.png",
+        "big_alt": "Julkortssamling 2013, hänger bredvid Mona-Lisa i Paris.",
+        "academic_credits": "WUT?",
+        "short_description": "Innehåller: Tompten, snöflinga, gran och batman.",
+        "lulz_had": "Too many",
+        "end_date": "2012-12-11",
+        "techniques_used": [
+	    "Photoshop"
+        ],
+        "start_date": "2012-12-11",
+        "group_size": 1,
+        "external_link": "https://www.google.se/maps/place/North+Pole/@85.0227927,0.2644957,48834m/data=!3m1!1e3!4m2!3m1!1s0x4fffffffffffffff:0x25ef61abf986e3a4",
+        "long_description": "Jag var till att skapa en samling julkort. Samlingen innehåller 4 julkort, motiven är: tompten, en snöflinga, en gran och batman. Varför batman kan man undra? Det finns helt enkelt inte 4 motiv att rita så jag valde en superhjälte, den bästa superhjälten!",
+        "course_name": "OK\u00c4NT",
+        "project_name": "Julkort",
+        "small_image": "robca064_small_img_tompten.png",
+        "small_alt": "Tompten är far till alla julkort",
+        "project_no": 0
+    }
 ]
